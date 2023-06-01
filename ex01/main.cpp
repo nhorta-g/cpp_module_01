@@ -2,7 +2,13 @@
 
 int	main(void)
 {
-	Zombie *Horde = zombieHorde(12, "fantastic horde");
+	int size = 5;
+
+	Zombie *Horde = zombieHorde(size, "Horde zombie");
+	if (Horde == NULL) {
+		std::cout << "Failed allocating dinamic memory." << std::endl;
+		return 1;
+	}
 	delete[] Horde;
 	return(0);
 }
