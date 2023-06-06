@@ -2,8 +2,9 @@
 # define WEAPON_HPP
 
 #include <iostream>
+#include <string>
 
-class Human {
+class Weapon {
     public:
         void Weapon(void);
         void ~Weapon(void);

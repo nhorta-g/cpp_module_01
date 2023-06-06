@@ -2,18 +2,18 @@
 #include "HumanB.hpp"
 #include "HumanA.hpp"
 
-Human::Weapon(void) {
+Weapon::Weapon(void) {
     return ;
 }
 
-Human::~Weapon(void) {
+Weapon::~Weapon(void) {
     return ;
 }
 
-const std::string Human::getType(void) {
+const std::string Weapon::getType(void) {
     return (this->_type);
 }
 
-void Human::setType(std::string type) {
+void Weapon::setType(std::string type) {
     this->_type = type;
 }
