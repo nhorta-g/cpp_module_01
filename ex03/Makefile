@@ -1,6 +1,6 @@
-NAME = More_Brainzzz!
+NAME = Unnecessary_violence
 
-SRC = main.cpp 
+SRC = main.cpp Weapon.cpp HumanAcpp HumanB.cpp
 
 OBJ = $(SRC:%.cpp=%.o)
 

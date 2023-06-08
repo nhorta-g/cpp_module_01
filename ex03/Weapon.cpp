@@ -1,8 +1,7 @@
 #include "Weapon.hpp"
-#include "HumanB.hpp"
-#include "HumanA.hpp"
 
-Weapon::Weapon(void) {
+Weapon::Weapon(std::string type) {
+	this->_type = type;
     return ;
 }
 
@@ -10,7 +9,7 @@ Weapon::~Weapon(void) {
     return ;
 }
 
-const std::string Weapon::getType(void) {
+const std::string &Weapon::getType(void) {
     return (this->_type);
 }
 

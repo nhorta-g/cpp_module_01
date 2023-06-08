@@ -3,12 +3,14 @@
 
 #include <iostream>
 #include <string>
+#include "HumanA.hpp"
+#include "HumanB.hpp"
 
 class Weapon {
     public:
-        void Weapon(void);
-        void ~Weapon(void);
-        const std::string getType(void);
+        Weapon(std::string type);
+        ~Weapon(void);
+        const std::string &getType(void);
         void setType(std::string type);
     private:
         std::string _type;

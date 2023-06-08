@@ -1,6 +1,6 @@
-NAME = More_Brainzzz!
+NAME = Hi_this_is_brain
 
-SRC = main.cpp Zombie.cpp ZombieHorde.cpp
+SRC = main.cpp
 
 OBJ = $(SRC:%.cpp=%.o)
 
