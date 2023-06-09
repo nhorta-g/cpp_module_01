@@ -1,6 +1,6 @@
-NAME = Unnecessary_violence
+NAME = Sed_is_for_losers
 
-SRC = main.cpp Weapon.cpp HumanA.cpp HumanB.cpp
+SRC = main.cpp
 
 OBJ = $(SRC:%.cpp=%.o)
 

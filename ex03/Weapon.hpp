@@ -1,10 +1,9 @@
 #ifndef WEAPON_HPP
 # define WEAPON_HPP
 
-#include <iostream>
-#include <string>
-#include "HumanA.hpp"
-#include "HumanB.hpp"
+# include <iostream>
+# include <string>
+# include "Weapon.hpp"
 
 class Weapon {
     public:
